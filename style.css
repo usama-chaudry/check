@@ -1,4 +1,4 @@
-.container1{
+/* .container1{
     background-image: url(/mlm/WhatsApp\ Image\ 2020-07-15\ at\ 12.00.15\ AM.jpeg);
     background-repeat: no-repeat;
     background-position: center;
@@ -10,6 +10,51 @@
     margin-top: 3rem;
     position: relative;
     
+} */
+.img-fluid{
+    position: relative;
+    max-width: 100%;
+}
+
+@media (max-width:32em){
+
+    html{
+        font-size: 90%;
+
+    }
+
+}
+@media (max-width:29.8125em){
+
+    html{
+        font-size: 85%;
+
+    }
+
+}
+@media(max-width:28.0625em){
+    html{
+        font-size: 80%;
+    }
+}
+
+.sp{
+    margin-top: -32rem;
+    margin-left: 2rem;
+    position: absolute;
+
+
+
+}
+
+@media (max-width:23.4375em){
+
+    .sp{
+
+        margin-top: -30rem;
+        margin-left: -.5rem;
+
+    }
 }
 p{
     color: red;
