@@ -56,6 +56,15 @@
 
     }
 }
+
+@media (max-width:25em){
+
+    .sp{
+
+        margin-left: .5rem;
+        margin-top: -30rem;
+    }
+}
 p{
     color: red;
     font-size: 1.6rem;
